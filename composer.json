@@ -13,6 +13,9 @@
             "email": "go.vasac@gmail.com"
         }
     ],
+    "bin": [
+        "bin/axy-htpasswd"
+    ],
     "require": {
         "php": ">=5.4.0",
         "axy/htpasswd": "0.*",
