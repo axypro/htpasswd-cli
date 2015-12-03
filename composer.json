@@ -1,0 +1,29 @@
+{
+    "name": "axy/htpasswd-cli",
+    "type": "library",
+    "description": "Htpasswd CLI utility",
+    "keywords": [
+        "htpasswd"
+    ],
+    "homepage": "https://github.com/axypro/htpasswd-cli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Grigoriev",
+            "email": "go.vasac@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "axy/htpasswd": "0.*",
+        "axy/cli-bin": "~0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "axy\\htpasswd\\cli\\": ""
+        }
+    },
+    "archive": {
+        "exclude": ["/tests/*", "/doc/*", "/cs.sh", "/phpmd.sh", "/*.xml.dist", "/CHANGELOG.md"]
+    }
+}
